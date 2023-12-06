@@ -7,22 +7,32 @@ const Navbar = () => {
     return (
         <header className='w-full px-32 py-8 flex items-center justify-between'>
             <nav>
-                <Link href='/'>Home</Link>
-                <Link href='/'>About</Link>
-                <Link href='/'>Projects</Link>
-                <Link href='/'>Articles</Link>
+                {pageLinks.map(link =>
+                    <Link key={link.href} href={link.href}>{link.label}</Link>
+                )}
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
             </div>
             <nav>
-                <Link href='/'>FB</Link>
-                <Link href='/'>Insta</Link>
-                <Link href='/'>Twitter</Link>
-                <Link href='/'>LinkedIn</Link>
+                {socialLinks.map(link=>
+                    <Link key={link.href} href={link.href}>{link.label}</Link>
+                )}
             </nav>
         </header>
     )
 }
+const pageLinks = [
+    { label: 'Home', href: '/' },
+    { label: 'About', href: '/' },
+    { label: 'Projects', href: '/' },
+    { label: 'Articles', href: '/' },
+]
 
+const socialLinks = [
+    { label: 'FB', href: '/' },
+    { label: 'Insta', href: '/' },
+    { label: 'Twitter', href: '/' },
+    { label: 'LinkedIn', href: '/' },
+]
 export default Navbar
