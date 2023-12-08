@@ -1,15 +1,13 @@
 'use client'
-import Link from 'next/link'
-import React from 'react'
-import Logo from './components/Logo'
-import SocialMediaIcons from './components/SocialMediaIcons'
-
+import Link from 'next/link';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import Logo from './components/Logo';
 const Navbar = () => {
     return (
         <header className='w-full px-32 py-8 flex items-center justify-between'>
             <nav>
-                {pageLinks.map(link =>
-                    <Link className='mx-4 hover:text-amber-400' key={link.href} href={link.href}>
+                {pageLinks.map((link, index) =>
+                    <Link className='mx-4 hover:text-amber-400' key={index} href={link.href}>
                         {link.label}
                     </Link>
                 )}
@@ -17,8 +15,11 @@ const Navbar = () => {
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
             </div>
-            <nav>
-                <SocialMediaIcons facebook={''} instagram={''} linkedin={''} twitter={''} />
+            <nav className='flex'>
+                <Link href='' className='mr-20' ><FaFacebook size={20}/></Link>
+                <Link href='' className='mr-20'><FaInstagram size={20}/></Link>
+                <Link href='' className='mr-20'><FaTwitter size={20}/></Link>
+                <Link href='' ><FaLinkedin size={20}/></Link>
             </nav>
         </header>
     )
@@ -30,10 +31,4 @@ const pageLinks = [
     { label: 'Articles', href: '/' },
 ]
 
-const socialLinks = [
-    { label: 'FB', href: '/' },
-    { label: 'Insta', href: '/' },
-    { label: 'Twitter', href: '/' },
-    { label: 'LinkedIn', href: '/' },
-]
 export default Navbar
