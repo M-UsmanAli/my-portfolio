@@ -9,7 +9,14 @@ export default function Home() {
             <Image src={developerImage} alt="developer" className="w-full h-auto pt-0" />
           </div>
           <div className="w-1/2">
-            <h1>React Application Development</h1>
+            <h1>Crafting Experiences, Shaping Tomorrow</h1>
+            <p>
+              Welcome to my world of React development, where I merge creativity with technology to
+              build immersive web experiences. I'm [Your Name], a dedicated developer driven by a
+              passion for innovation and a commitment to excellence. With a strong foundation in
+              React, I bring ideas to life, creating applications that leave a lasting impact.
+              Explore my portfolio and witness the art of digital transformation.
+            </p>
           </div>
         </div>
       </div>
