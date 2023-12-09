@@ -3,6 +3,8 @@ import developerImage from '../public/developer_image-removebg-preview.png'
 import AnimatedHomeText from "./components/AnimatedHomeText";
 import HomeButtons from "./components/HomeButtons";
 import HomeParagraph from "./components/HomeParagraph";
+import HireMe from "./components/HireMe";
+import NextIcon from "./components/NextIcon";
 export default function Home() {
   return (
     <div>
@@ -18,7 +20,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <HireMe/>
+      <NextIcon/>
     </div>
   )
 }

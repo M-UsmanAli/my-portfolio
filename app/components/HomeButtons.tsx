@@ -11,7 +11,7 @@ const HomeButtons = () => {
                 Resume <FaExternalLinkAlt className='ml-3'/>
             </Link>
             <Link href='mailto:aliusmanmuhammad98@gmail.com'
-            className='ml-4 text-lg font-medium capitalize text-black underline'>
+            className='ml-4 text-lg font-medium capitalize text-black underline underline-offset-2'>
                 Contact</Link>
         </div>
     )
