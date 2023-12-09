@@ -1,19 +1,17 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
 
 interface Props {
-    text: String
+  text: string;
 }
+
 const AnimatedHomeText = ({ text }: { text: String }) => {
-    return (
-        <div className='w-full mx-auto py-2 flex items-center justify-center text-center
-        overflow-hidden'>
-            <h1 className='inline-block w-full text-black font-bold capitalize text-6xl !text-left'>
-                {text}
-            </h1>
+  return (
+    <div className='w-full mx-auto flex items-center justify-center text-center overflow-hidden my-2'>
+      <h1 className='inline-block w-full text-black font-bold capitalize text-6xl !text-left transition-all duration-1000 ease-in-out delay-100'>
+        {text}
+      </h1>
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default AnimatedHomeText
+export default AnimatedHomeText;
