@@ -12,10 +12,11 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'circularLight':'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px);'
       },
       animation:{
         'spin-slow': 'spin 7s linear infinite'
-      }
+      },
     },
   },
   plugins: [],
