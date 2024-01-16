@@ -27,7 +27,7 @@ const Navbar = () => {
 const pageLinks = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
-    { label: 'Projects', href: '/' },
+    { label: 'Projects', href: '/projects' },
     { label: 'Articles', href: '/' },
 ]
 
