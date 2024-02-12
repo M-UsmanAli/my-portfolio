@@ -1,5 +1,5 @@
 import React from 'react'
-import nextIcon from '../../public/nextIcon.png'
+import nextIcon from '../../public/bulb.svg'
 import Image from 'next/image'
 const NextIcon = () => {
     return (
