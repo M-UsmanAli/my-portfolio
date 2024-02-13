@@ -22,7 +22,9 @@ const SmallProjects = ({ title, type, summary, img, link, github }: Props) => {
                     overflowClipMargin: 'hidden',
                     overflow: 'clip',
                     marginRight:'5px',
-                }} />
+                }} 
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
             </Link>
 
             <div className='w-full ml-5'>

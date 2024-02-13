@@ -22,7 +22,9 @@ const FeaturedProjects = ({ title, type, summary, img, link, github }: Props) =>
                     overflowClipMargin: 'content-box',
                     overflow: 'clip',
                     marginRight: '5px',
-                }} />
+                }} 
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
             </Link>
 
             <div className='w-1/2 flex flex-col item-start justify-between ml-5'>
