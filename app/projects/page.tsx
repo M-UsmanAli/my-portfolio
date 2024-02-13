@@ -5,6 +5,7 @@ import issueTrackerImg from '../../public/issuetrackerimg.png'
 import physionics from '../../public/physionics.png'
 import shopping from '../../public/shopping.png'
 import SmallProjects from './_components/SmallProjects'
+import { Metadata } from 'next'
 const page = () => {
     return (
         <>
@@ -52,4 +53,7 @@ const page = () => {
     )
 }
 
+export const metadata: Metadata={
+    title:'My Portfolio - Projects'
+  }
 export default page

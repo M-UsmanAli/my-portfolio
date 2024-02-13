@@ -5,6 +5,7 @@ import profilepic from '../../public/two.jpg';
 import Image from 'next/image';
 import ExperienceDetails from './_components/ExperienceDetails';
 import Skills from './_components/Skills';
+import { Metadata } from 'next';
 
 const AboutPage = () => {
   return (
@@ -50,5 +51,9 @@ const AboutPage = () => {
     </>
   );
 };
+
+export const metadata: Metadata={
+  title:'My Portfolio - About'
+}
 
 export default AboutPage;

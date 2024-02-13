@@ -1,10 +1,11 @@
 import Image from "next/image";
-import developerImage from '../public/developer_image-removebg-preview.png'
+import developerImage from '../public/developer-pic-1.webp'
 import AnimatedHomeText from "./components/AnimatedHomeText";
 import HomeButtons from "./components/HomeButtons";
 import HomeParagraph from "./components/HomeParagraph";
 import HireMe from "./components/HireMe";
 import NextIcon from "./components/NextIcon";
+import { Metadata } from "next";
 export default function Home() {
   return (
     <div>
@@ -25,4 +26,8 @@ export default function Home() {
       <NextIcon/>
     </div>
   )
+}
+
+export const metadata: Metadata={
+  title:'My Portfolio - Home'
 }

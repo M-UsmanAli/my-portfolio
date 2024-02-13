@@ -4,7 +4,7 @@ import Image from 'next/image'
 const NextIcon = () => {
     return (
         <div className='absolute right-8 bottom-1 inline-block w-24'>
-            <Image src={nextIcon} alt='NextIcon' className='w-auto h-auto'/>
+            <Image src={nextIcon} alt='NextIcon' className='w-auto'/>
         </div>
     )
 }
