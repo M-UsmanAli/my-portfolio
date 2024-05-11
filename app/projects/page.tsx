@@ -1,12 +1,11 @@
-import React from 'react'
-import AnimatedHomeText from '../components/AnimatedHomeText'
-import FeaturedProjects from './_components/FeaturedProjects'
+import { Metadata } from 'next'
 import issueTrackerImg from '../../public/issuetrackerimg.png'
 import physionics from '../../public/physionics.png'
 import shopping from '../../public/shopping.png'
 import weather from '../../public/weather.png'
+import AnimatedHomeText from '../components/AnimatedHomeText'
+import FeaturedProjects from './_components/FeaturedProjects'
 import SmallProjects from './_components/SmallProjects'
-import { Metadata } from 'next'
 const page = () => {
     return (
         <>

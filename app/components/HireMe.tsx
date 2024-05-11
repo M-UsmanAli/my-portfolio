@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import React from 'react'
-import imageHireMe from '../../public/HireMe.png'
 import Link from 'next/link'
+import imageHireMe from '../../public/HireMe.png'
 const HireMe = () => {
     return (
         <div className='fixed left-4 bottom-4 flex items-center justify-center overflow-hidden'>

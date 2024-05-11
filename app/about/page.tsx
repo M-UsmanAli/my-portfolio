@@ -1,11 +1,10 @@
-import React from 'react';
+import { Metadata } from 'next';
+import Image from 'next/image';
+import profilepic from '../../public/two.jpg';
 import AnimatedHomeText from '../components/AnimatedHomeText';
 import Biography from './_components/Biography';
-import profilepic from '../../public/two.jpg';
-import Image from 'next/image';
 import ExperienceDetails from './_components/ExperienceDetails';
 import Skills from './_components/Skills';
-import { Metadata } from 'next';
 
 const AboutPage = () => {
   return (

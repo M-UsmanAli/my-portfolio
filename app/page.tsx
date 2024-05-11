@@ -1,11 +1,11 @@
+import { Metadata } from "next";
 import Image from "next/image";
-import developerImage from '../public/developer-pic-1.webp'
+import developerImage from '../public/developer-pic-1.webp';
 import AnimatedHomeText from "./components/AnimatedHomeText";
+import HireMe from "./components/HireMe";
 import HomeButtons from "./components/HomeButtons";
 import HomeParagraph from "./components/HomeParagraph";
-import HireMe from "./components/HireMe";
 import NextIcon from "./components/NextIcon";
-import { Metadata } from "next";
 export default function Home() {
   return (
     <div>
