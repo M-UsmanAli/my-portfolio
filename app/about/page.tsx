@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import profilepic from '../../public/two.jpg';
+import profilepic from '@/public/profilepic1.png'
 import AnimatedHomeText from '../components/AnimatedHomeText';
 import Biography from './_components/Biography';
 import ExperienceDetails from './_components/ExperienceDetails';
