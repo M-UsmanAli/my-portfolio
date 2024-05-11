@@ -35,11 +35,11 @@ const SmallProjects = ({ title, type, summary, img, link, github }: Props) => {
                     </Link>
                     
                     <div className="mb-auto">
-                        <Link href={github} target='_blank'>
+                        <Link href={github} target='_blank' className='font-extrabold'>
                             <FaGithub />
                         </Link>
-                        <Link href={github} target='_blank'>
-                            Visit
+                        <Link href={github} target='_blank' className='font-extrabold'>
+                            Visit the Project
                         </Link>
                     </div>
                 </div>

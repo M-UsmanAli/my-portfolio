@@ -4,6 +4,7 @@ import FeaturedProjects from './_components/FeaturedProjects'
 import issueTrackerImg from '../../public/issuetrackerimg.png'
 import physionics from '../../public/physionics.png'
 import shopping from '../../public/shopping.png'
+import weather from '../../public/weather.png'
 import SmallProjects from './_components/SmallProjects'
 import { Metadata } from 'next'
 const page = () => {
@@ -19,9 +20,9 @@ const page = () => {
                             <FeaturedProjects
                                 title='Issue Tracker'
                                 summary="Introducing my project, the 'Issue Tracker' - a powerful tool designed to streamline project management. With a user-friendly interface, it allows teams to effortlessly track and manage issues throughout the development lifecycle. From identifying and prioritizing tasks to monitoring progress, the Issue Tracker enhances collaboration and ensures a smoother workflow. Dive into my portfolio to explore this project and witness how it can elevate your project management experience"
-                                link='/'
+                                link='https://github.com/M-UsmanAli/issue-tracker'
                                 type='Featured Projects!'
-                                github='/'
+                                github='https://github.com/M-UsmanAli/issue-tracker'
                                 img={issueTrackerImg}
                             />
                         </div>
@@ -44,6 +45,17 @@ const page = () => {
                                 type='Featured Projects!'
                                 github='/'
                                 img={shopping}
+                            />
+                        </div>
+
+                        <div className='col-span-12 '>
+                            <FeaturedProjects
+                                title='Weather App'
+                                summary="Introducing my React Weather app, a sleek and intuitive tool designed to provide real-time weather updates with ease. With a clean and minimalist interface, users can effortlessly check the current weather conditions, forecasts, and more, all powered by reliable data sources. Whether planning a weekend getaway or simply staying informed about the day ahead, my React Weather app offers a seamless experience for staying connected to the ever-changing elements."
+                                link='https://github.com/M-UsmanAli/weather-forecast'
+                                type='Featured Projects!'
+                                github='https://github.com/M-UsmanAli/weather-forecast'
+                                img={weather}
                             />
                         </div>
                     </div>
